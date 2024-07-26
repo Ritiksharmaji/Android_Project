@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Create a new dimens.xml file by right clicking the values folder and choosing New > Values resource file.-->
+<!--    Write dimens for the name. (You could also call it dimen or dimensions. -->
+<!--    The name doesn't really matter, only the dimen resource type that it will include.-->
+<resources>
+
+    <dimen name="_10_20dp">16dp</dimen>
+    <dimen name="_20to30dp">25dp</dimen>
+
+</resources>

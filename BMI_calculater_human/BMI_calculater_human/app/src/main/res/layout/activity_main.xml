@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/weight_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/weight_textEdit"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/height_feet_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/height_ft_textEdit"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/height_inch_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/height_inch_textEdit"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_BMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_click"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/result_BMI_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ads_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-4816425949454746/6700086087" />
+<!--        app:adUnitId="ca-app-pub-4816425949454746/2522217673" />-->
+
+</LinearLayout>

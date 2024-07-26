@@ -1,0 +1,20 @@
+<!--<resources>-->
+<!--    <string name="app_name">BMI_calculater_human</string>-->
+<!--    <string name="weight_textEdit">Enter your Weight</string>-->
+<!--    <string name="height_ft_textEdit">Enter your Height of ft</string>-->
+<!--    <string name="height_inch_textEdit">Enter your Height of inch</string>-->
+<!--    <string name="button_click">Click On</string>-->
+<!--    <string name="app_id_for_ads">ca-app-pub-4816425949454746~6014616417</string>-->
+<!--    <string name="BMI_unit_ads_id">ca-app-pub-4816425949454746/2522217673</string>-->
+<!--</resources>-->
+
+<resources>
+    <string name="app_name">BMI_calculater_human</string>
+    <string name="weight_textEdit">Enter your Weight</string>
+    <string name="height_ft_textEdit">Enter your Height in ft</string>
+    <string name="height_inch_textEdit">Enter your Height in inches</string>
+    <string name="button_click">Click On</string>
+    <string name="app_id_for_ads">ca-app-pub-4816425949454746~6014616417</string>
+    <string name="BMI_unit_ads_id">ca-app-pub-4816425949454746/2522217673</string>
+</resources>
+

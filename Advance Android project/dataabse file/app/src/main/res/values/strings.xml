@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">DatabaseCreate_SQLite</string>
+</resources>
+
+<!--Read file-->
+
+<!--
+step-1: create a project
+
+step-2: create a java class where we can write all the database related code.
+
+step-3: that class must extends the SQLiteOpenHelper this class provides the two important method onCreate() and
+        onUpdate() to create and update the data which should be implements and create a constructer.
+
+step-4: angin  create one more constcuter with only Context object beacuse it take the class referance and we are
+        going to define the database name and factroy and version name by this class not by activity class.
+        the factroy used to read the data from the database by row by row. version about database meanse when we create database then
+         database version in 1 and after creating database what ever we change in database like table create , insert data
+         then version will increse by 1
+
+step-5: now create then details of dataabse , factrory and version in that class
+
+step-6: so when at first time we create object for this class then autometically onCreate() method will call at first
+        time to create database.
+        then if you again create object for it then first it will check for database if not created it onCick will call otherwise
+        onUpdate() method will call.
+
+step-7: write create statement in onCreate() method to create table.
+step-8: update database.
+
+
+video- 89 -> before do any operation on database first we shoulb to open the database and then do operation on that and after
+            complete of operation on database we shoulb to close it also.
+
+step-1: write the code in onCreate() method below
+
+        // to open the database
+        SQLiteDatabase db = this.getWritableDatabase();
+        // to close the database
+        db.close();
+
+
+video-90- 
+
+
+
+
+
+-->
