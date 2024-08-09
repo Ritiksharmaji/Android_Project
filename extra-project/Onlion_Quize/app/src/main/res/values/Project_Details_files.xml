@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources></resources>
+
+<!--
+
+
+phase-2:
+
+1) design the top part of activity_dash_border backgo and exit
+2) design a card-view to display the question and answer
+3) create four card views and design them
+4) create a button for next - for that we are creating a drawable file next_btn_shape.xml
+
+
+-->
