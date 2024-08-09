@@ -10,4 +10,11 @@ public class ContactModel {
         this.name = name;
         this.number = number;
     }
+
+    // create a more constucter
+
+    public ContactModel(String name, String number) {
+        this.name = name;
+        this.number = number;
+    }
 }

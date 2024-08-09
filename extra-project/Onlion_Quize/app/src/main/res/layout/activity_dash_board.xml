@@ -31,8 +31,27 @@
             android:background="@drawable/exit"
             android:layout_marginTop="5dp"
             android:layout_marginRight="12dp"/>
-
     </RelativeLayout>
+
+    <!-- Timer layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/timer_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+    </LinearLayout>
 
     <!-- This is for card-view -->
     <androidx.cardview.widget.CardView
@@ -135,9 +154,7 @@
         </androidx.cardview.widget.CardView>
     </LinearLayout>
 
-    <!-- this is for createt a button -->
-
-
+    <!-- Button -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -156,11 +173,6 @@
             android:textStyle="bold"
             android:outlineAmbientShadowColor="#F2E5E5"
             android:textAllCaps="true"
-            android:layout_gravity="center"
-            />
-
-
+            android:layout_gravity="center"/>
     </LinearLayout>
-
-
 </LinearLayout>

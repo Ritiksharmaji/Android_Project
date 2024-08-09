@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Recycler_View_example</string>
+    <string name="add_contact">Add Contact</string>
 </resources>

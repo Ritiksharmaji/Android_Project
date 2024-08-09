@@ -11,5 +11,19 @@ phase-2:
 3) create four card views and design them
 4) create a button for next - for that we are creating a drawable file next_btn_shape.xml
 
+phase-3:
+creating a arraylist for question , making functinality for exit button, back button
+
+step-1: create a linerLayout in activity_dash_board..xml to define the timer
+step-2:  in DashBoardActivity.java class , access the id of timer
+step-3: call the startTimer method in that method create a object of countDownTImer by using CountDownTimer and overrides its
+        method
+
+step-4: to display the dialog we are creating a custome layout as time_out_dialog
+step-5: design the cardview for display the timeout dialog.
+step-6: create a theme so that we the dialog box will display then it shoud to be show the question page in background.
+step-7: to create a theme- - > create a style tag is themes file and use the name attribute with values as windowBackground
+                        then pass it to while creating a dialog object.
+
 
 -->
