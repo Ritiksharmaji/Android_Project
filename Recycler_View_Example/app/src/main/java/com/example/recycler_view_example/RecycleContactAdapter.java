@@ -12,13 +12,16 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
+// step-8: ceating a custome adaper class  for recycler to hold the data.name as RecycleContactAdapter.java
 // this class must have to extends the RecyclerView.Adapter<>
 public class RecycleContactAdapter  extends RecyclerView.Adapter<RecycleContactAdapter.viewHolder> {
 
-    // creating object for context to pass the constuctue of this class
+    //--------------------Step-9: write the code.  ---------------------------------
+    // creating object for context to pass the construct of this class
     Context context;
     ArrayList<ContactModel> arrayList_model_adapter;
 
+    // creating a constucre to get the context object because we are not in activity_class
     RecycleContactAdapter(Context context, ArrayList<ContactModel> arrayList_model_adapter) {
         this.context = context;
         this.arrayList_model_adapter = arrayList_model_adapter;
@@ -31,6 +34,7 @@ public class RecycleContactAdapter  extends RecyclerView.Adapter<RecycleContactA
         TextView textname, textnumber;
         ImageView img;
 
+        // by-default create to overrite it
         public viewHolder(View itemView) {
             super(itemView);
             // to find the id we are using the itemview.findveiwByid()
@@ -51,6 +55,7 @@ public class RecycleContactAdapter  extends RecyclerView.Adapter<RecycleContactA
         View v = LayoutInflater.from(context).inflate(R.layout.contact_row, parent, false);
     // create object of viewHolder to return it
         return new viewHolder(v);
+        // this view will goes to viewHolder inner class.
 
     }
 
