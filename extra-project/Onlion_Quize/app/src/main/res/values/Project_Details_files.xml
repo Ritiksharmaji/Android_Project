@@ -26,4 +26,19 @@ step-7: to create a theme- - > create a style tag is themes file and use the nam
                         then pass it to while creating a dialog object.
 
 
+phase-4:
+to make the application in a way that we we click on the dialog box of try one more time then it will go back to again question pages
+for that- - -> we are going to set the setOnlickListener on that text with help of id. here we can n't access the id of that dialog box button
+        beacuse we are not in Activity class so we are accessing it by calling the object of dialog box then findViewById().
+
+ step-2: to hide the status bar - - - >
+ ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+ phase-5: adding the question list..
+
+ step-1: create a model class as modelclass.java
+ step-2:
+
+
 -->
+
