@@ -37,4 +37,5 @@ public class StudentAdapter extends ArrayAdapter<Student> {
         // Return the completed view to render on screen
         return convertView;
     }
+
 }
