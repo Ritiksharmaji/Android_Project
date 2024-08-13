@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">volley_Example_6_2_dynamic_Single_object</string>
+    <string name="passwordString">enter your password</string>
+    <string name="branchString">enter your Branch</string>
+    <string name="nameString">enter your name</string>
+    <string name="registationString">enter your registation No</string>
+    <string name="submitButton">Submit data</string>
+</resources>
