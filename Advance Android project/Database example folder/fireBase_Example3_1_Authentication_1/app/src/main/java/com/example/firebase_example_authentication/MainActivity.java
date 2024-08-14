@@ -8,7 +8,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.firebase.ui.auth.AuthUI;
-
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -83,15 +82,21 @@ public class MainActivity extends AppCompatActivity {
                             // below line is used for getting
                             // our authentication instance.
                             AuthUI.getInstance()
-                                    // below line is used to create our sign in intent
+                                    // below line is used to
+                                    // create our sign in intent
                                     .createSignInIntentBuilder()
-                                    /* below line is used for adding smart lock for our authentication
-                      smart lock is used to check if the use is authentication through different devices.
-                      currently we are disabling it.       */
+
+                                    // below line is used for adding smart
+                                    // lock for our authentication.
+                                    // smart lock is used to check if the user
+                                    // is authentication through different devices.
+                                    // currently we are disabling it.
                                     .setIsSmartLockEnabled(false)
-                            /* we are adding different login providers which
-                 we have mentioned above in our list.
-            we can add more providers according to our requirement which are available in firebase. */
+
+                                    // we are adding different login providers which
+                                    // we have mentioned above in our list.
+                                    // we can add more providers according to our
+                                    // requirement which are available in firebase.
                                     .setAvailableProviders(providers)
 
                                     // below line is for customizing our theme for

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    step-1: create a project
+    step-2: create a LoginActivity and RegisterActivity.java
+    step-3: making the RegisterActivity as luncher activity
+    step-4: after created successfully of GUI we have to connect the our  andoid project to realtime.
+    step-5:connect with prevoius database as Example Authentication
+    step-6: define the all the ids of UI in RegisterActivity.java and apply the setOnClickListern on submit button
+    step-7:
+
+</resources>

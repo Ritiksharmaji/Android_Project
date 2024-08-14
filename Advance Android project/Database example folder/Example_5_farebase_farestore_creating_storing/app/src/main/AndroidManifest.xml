@@ -16,6 +16,9 @@
         android:theme="@style/Theme.Example_5CreateAndAddDataToFirebaseFirestore"
         tools:targetApi="31">
         <activity
+            android:name=".UpdateCourse"
+            android:exported="false" />
+        <activity
             android:name=".CourseDetails"
             android:exported="false" />
         <activity
