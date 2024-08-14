@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "70017958114",
+    "project_id": "ex-5-curdfirebase-firestore",
+    "storage_bucket": "ex-5-curdfirebase-firestore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70017958114:android:28caaadf9b94736fdc9ebb",
+        "android_client_info": {
+          "package_name": "com.example.example_5createandadddatatofirebasefirestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHLijGVQv6FA8DwFg17fyIeLfZTwzSnSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
