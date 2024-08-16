@@ -42,8 +42,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    implementation (libs.firebase.ui.auth)
-    implementation (libs.firebase.auth)
-    implementation (libs.firebase.auth.v2200)
-    implementation (libs.firebase.ui.auth.v801)
+    implementation ("com.google.firebase:firebase-auth:23.0.0")
+    implementation ("com.firebaseui:firebase-ui-auth:4.0.0")
 }
