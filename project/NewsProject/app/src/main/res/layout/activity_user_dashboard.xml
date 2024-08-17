@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDashboardActivity">
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@id/tvUserName"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/tvUserPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:layout_below="@id/tvUserEmail"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/tvUserCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:layout_below="@id/tvUserPhone"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/tvUserCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:layout_below="@id/tvUserCity"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btnPostNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post News"
+        android:layout_below="@id/tvUserCategory"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnViewPosts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Posts"
+        android:layout_below="@id/btnPostNews"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>

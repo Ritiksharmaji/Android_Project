@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    strucutres-
+
+    /src
+    /main
+    /java/com/example/news
+                    MainActivity.java
+                    LoginActivity.java
+                    RegistrationActivity.java
+                    UserDashboardActivity.java
+                    PostNewsActivity.java
+                    AdminLoginActivity.java
+                    AdminDashboardActivity.java
+                    AdminRegistrationActivity.java
+                    UserProfileActivity.java
+    models
+            User.java
+            Admin.java
+            Post.java
+    /res
+    /layout
+            activity_main.xml
+            activity_login.xml
+            activity_registration.xml
+            activity_user_dashboard.xml
+            activity_post_news.xml
+            activity_admin_login.xml
+            activity_admin_dashboard.xml
+            activity_admin_registration.xml
+            activity_user_profile.xml
+    /values
+            strings.xml
+            colors.xml
+            styles.xml
+    /drawable
+        (Profile and post images)
+--------------------------------------------
+    step-1: work with activity_main.xml and create four button for user and admin.
+    step-2: work with MainActivity.java and find the ids and apply the intent on them.
+    step-3: create LoginActivity.java activity and work with actiivty_login.xml and createe login fileds
+    step-4: filed the ides in LoginAtivity.java and after successful login redirect to UserDashActivity.java
+    step-5: create a other activity called RegistrationActivity.java and work with activity_registation.xml
+    step-6:
+</resources>
